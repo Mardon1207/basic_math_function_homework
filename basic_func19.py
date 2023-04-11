@@ -8,4 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    return b-a
+a=int(input())
+b=int(input())
+print(main(a,b))
